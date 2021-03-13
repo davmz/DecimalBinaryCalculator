@@ -1,2 +1,2 @@
 # Decimal Binary Calculator C#
-Helpful conversion between decimal to binary (v.v.) when doing your network configurations
+A C# windows application of a conversion calculator between decimal to binary (vise versa) when doing your network configurations.

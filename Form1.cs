@@ -1,4 +1,9 @@
-﻿using System;
+/*
+ * Name: David Montanez
+ * Created: March 13, 2021
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -71,9 +76,10 @@ namespace Binary_Decimal_Converter
             results = 0;
         }
 
+        // feel like this could be better --> might be best to do this in a for loop (same with the decimal to binary code)
         private void BtnConvert_Click(object sender, EventArgs e)
         {
-            if(this.num128.Value == 1)
+            if (this.num128.Value == 1)
             {
                 results += oneTwentyEight;
             }
@@ -112,7 +118,6 @@ namespace Binary_Decimal_Converter
             {
                 results += one;
             }
-
 
             this.lblDecimal.Text = results.ToString();
         }
